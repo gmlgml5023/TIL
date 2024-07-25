@@ -12,6 +12,8 @@
 - 데이터와 해당 데이터를 처리하는 메서드(메시지)를 하나의 객체(클래스)로 묶음
 - 객체 간 상호작용과 메시지 전달이 중요
 
+<br>
+
 ## 2. 객체
 ### 1) 클래스 `class`
 - 파이썬에서 타입을 표현하는 방법
@@ -40,6 +42,7 @@
   
 ![alt text](image-5.png)
 
+<br>
 
 ## 3. 클래스 `class`
 ### 1) 클래스 정의
@@ -110,6 +113,8 @@ singer1 = Person('iu')
 # 인스턴스 메서드 호출
 print(singer1.singing())
 ```
+
+<br>
 
 ## 4. 메서드 `method`
 ### 1) 인스턴스 메서드 `instance method`
@@ -197,6 +202,8 @@ capitalized_text = StringUtils.capitalize_string(text)
 print(capitalized_text) # Hello, world
 ```
 
+<br>
+
 ## 5. 메서드 정리
 ### 1) 누가 어떤 메서드를 사용해야 할까?
 - 클래스가 사용해야 할 것
@@ -213,6 +220,8 @@ print(capitalized_text) # Hello, world
 - 인스턴스는 모든 메서드 호출 가능
 - 하지만 인스턴스는 인스터드 메서드만 사용하도록 한다 !!
 
+<br>
+
 ## 6. 상속 `inheritance`
 ### 1) 정의
 - 기존 클래스의 속성과 메서드를 물려받아 새로운 하위 클래스를 생성하는 것
@@ -228,6 +237,7 @@ print(capitalized_text) # Hello, world
     - 기존 클래스의 수정이 필요한 경우, 해당 클래스만 수정하면 되므로 유지보수가 용이해짐.
     - 코드의 일관성을 유지하고, 수정이 필요한 범위를 최소화할 수 있음.
 
+<br>
 
 ## 7. 클래스 상속
 ### 1) 상속 없이 구현하는 경우
@@ -308,6 +318,7 @@ print(capitalized_text) # Hello, world
     ```
 - 아직 (생성자함수에서) 중복이 완전히 없어지진 않았지만, 메서드의 중복은 없어짐
 
+<br>
 
 ## 8. 다중 상속
 ### 1) 정의
