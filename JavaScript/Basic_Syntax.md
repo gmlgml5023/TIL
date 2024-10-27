@@ -75,8 +75,12 @@
         
     - `Boolean` : 조건문 또는 반복문에서 Boolean이 아닌 데이터타입은 ‘자동 형변환 규칙’에 따라 true 또는 false로 변환됨
 - 자동 형변환
-
-![alt text](image.png)
+    | 데이터 타입 | false | true |
+    | --- | --- | --- |
+    | undefined | 항상 false | X |
+    | null | 항상 false | X |
+    | Number | 0, -0, Nan | 나머지 모든 경우 |
+    | String | ' ' (빈 문자열) | 나머지 모든 경우 |
 
 ### 2) 참조 자료형
 
@@ -297,7 +301,7 @@ false || false // false
 - 객체의 열거 가능한 속성 (property)에 대해 반복
     
     ```jsx
-    for (variable in objec) {
+    for (variable in object) {
         statement
     }
     ```
